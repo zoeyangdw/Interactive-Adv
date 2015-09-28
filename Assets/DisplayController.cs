@@ -7,8 +7,7 @@ public class DisplayController : MonoBehaviour {
 	
 	public static DisplayController GetInstance()
 	{
-		if(!_instance)
-		{
+		if(!_instance){
 			_instance = (DisplayController)GameObject.FindObjectOfType(typeof(DisplayController));
 		}
 		return _instance;
@@ -22,13 +21,21 @@ public class DisplayController : MonoBehaviour {
 
 	}
 
-	public void OnSceneChanged(){
+	public void OnSceneChanged4Display(Scene s){
+
+	}
+
+	public void UpdateFrame(){
+
+	}
+
+	public void AnimStop(){
 
 	}
 
 	// Use this for initialization
 	void Start () {
-		StatusController.ChangeScene += OnSceneChanged;
+		StatusController.ChangeScene += OnSceneChanged4Display;
 	}
 	
 	// Update is called once per frame
