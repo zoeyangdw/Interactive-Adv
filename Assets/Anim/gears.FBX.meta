@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: 2cecd1c435f1ea44f853166841ddc625
+timeCreated: 1443544837
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Circle003
+    100002: Circle004
+    100004: Circle005
+    100006: Circle006
+    100008: Circle007
+    100010: Circle008
+    100012: Cylinder001
+    100014: //RootNode
+    100016: Line001
+    100018: Star
+    100020: Star001
+    100022: Star002
+    100024: Star003
+    100026: Star004
+    100028: Star005
+    100030: Star006
+    100032: Star007
+    100034: Star008
+    100036: Star009
+    400000: Circle003
+    400002: Circle004
+    400004: Circle005
+    400006: Circle006
+    400008: Circle007
+    400010: Circle008
+    400012: Cylinder001
+    400014: //RootNode
+    400016: Line001
+    400018: Star
+    400020: Star001
+    400022: Star002
+    400024: Star003
+    400026: Star004
+    400028: Star005
+    400030: Star006
+    400032: Star007
+    400034: Star008
+    400036: Star009
+    2300000: Circle003
+    2300002: Circle004
+    2300004: Circle005
+    2300006: Circle006
+    2300008: Circle007
+    2300010: Circle008
+    2300012: Cylinder001
+    2300014: Line001
+    2300016: Star001
+    2300018: Star002
+    2300020: Star003
+    2300022: Star004
+    2300024: Star005
+    2300026: Star006
+    2300028: Star007
+    2300030: Star008
+    2300032: Star009
+    3300000: Circle003
+    3300002: Circle004
+    3300004: Circle005
+    3300006: Circle006
+    3300008: Circle007
+    3300010: Circle008
+    3300012: Cylinder001
+    3300014: Line001
+    3300016: Star001
+    3300018: Star002
+    3300020: Star003
+    3300022: Star004
+    3300024: Star005
+    3300026: Star006
+    3300028: Star007
+    3300030: Star008
+    3300032: Star009
+    4300000: Circle003
+    4300002: Cylinder001
+    4300004: Line001
+    4300006: Circle004
+    4300008: Circle005
+    4300010: Star001
+    4300012: Circle008
+    4300014: Star002
+    4300016: Star008
+    4300018: Star003
+    4300020: Star004
+    4300022: Star005
+    4300024: Star009
+    4300026: Star006
+    4300028: Star007
+    4300030: Circle006
+    4300032: Circle007
+    7400000: gearPlay
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: gearPlay
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 750
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle003
+        weight: 1
+      - path: Circle003/Cylinder001
+        weight: 1
+      - path: Circle004
+        weight: 1
+      - path: Circle004/Circle005
+        weight: 1
+      - path: Circle006
+        weight: 1
+      - path: Circle006/Circle007
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Star
+        weight: 1
+      - path: Star001
+        weight: 1
+      - path: Star001/Circle008
+        weight: 1
+      - path: Star002
+        weight: 1
+      - path: Star002/Star003
+        weight: 1
+      - path: Star002/Star008
+        weight: 1
+      - path: Star004
+        weight: 1
+      - path: Star005
+        weight: 1
+      - path: Star005/Star009
+        weight: 1
+      - path: Star006
+        weight: 1
+      - path: Star007
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

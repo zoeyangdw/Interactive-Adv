@@ -41,15 +41,19 @@ public class StatusController : MonoBehaviour {
 	}
 	//情境切换
 	private void TurnToScene(Scene s){
-		presentScene = s;
-		ChangeScene (s);
-		sceneStack.Push (s);
+		if (s != presentScene || s == 0) {
+			presentScene = s;
+			ChangeScene (s);
+			sceneStack.Push (s);
+			timeDownCount = timeDown;
 		}
+	}
 	//回退情境
 	private void Rollback(){
 		if (sceneStack.Count != 0) {
 			sceneStack.Pop();
 			DisplayController.GetInstance().RollbackPresentScene();
+			DisplayController.GetInstance().StopScene(presentScene);
 				}
 		}
 
@@ -66,12 +70,19 @@ public class StatusController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		GestureController.GetInstance ().RecognizeGesture (presentScene);
-		DisplayController.GetInstance ().UpdateFrame ();
-		timeDownCount--;
-		if (timeDownCount == 0) {
-			timeDownCount = timeDown;
-			Rollback();
+		if (Input.GetKey ("w")) {
+			OnGestureRecognized (Scene.scenestart);
+		}
+
+		//GestureController.GetInstance ().RecognizeGesture (presentScene);
+		if (GetSceneObject.GetInstance ().ReturnSceneController (presentScene).IsPlayingScene ()) {
+			if (timeDownCount > 0) {
+				timeDownCount--;
+			}
+			else {
+				timeDownCount = timeDown;
+				Rollback();
+			}
 		}
 	}
 }

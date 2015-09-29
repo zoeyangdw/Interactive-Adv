@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 public class DisplayController : MonoBehaviour {
 
@@ -13,8 +15,13 @@ public class DisplayController : MonoBehaviour {
 		return _instance;
 	}
 
-	public void DisplayScene(){
+	public void DisplayScene(Scene s){
+		StopScene (s);
+		GetSceneObject.GetInstance ().ReturnSceneController (s).PlayScene ();
+	}
 
+	public void StopScene(Scene s){
+		GetSceneObject.GetInstance ().ReturnSceneController (s).StopScene ();
 	}
 
 	public void RollbackPresentScene(){
@@ -22,7 +29,7 @@ public class DisplayController : MonoBehaviour {
 	}
 
 	public void OnSceneChanged4Display(Scene s){
-
+		DisplayScene (s);
 	}
 
 	public void UpdateFrame(){

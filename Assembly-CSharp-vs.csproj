@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{DDA713FA-9A6A-B854-0BA1-33CC722100F7}</ProjectGuid>
+	<ProjectGuid>{63DF1FB6-1230-C4FD-6B2A-68393E9F5A38}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,9 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AnimComponent.cs" />
      <Compile Include="Assets\CameraController.cs" />
      <Compile Include="Assets\DisplayController.cs" />
+     <Compile Include="Assets\Gears.cs" />
      <Compile Include="Assets\GestureController.cs" />
+     <Compile Include="Assets\GetSceneObject.cs" />
+     <Compile Include="Assets\SceneController.cs" />
      <Compile Include="Assets\StatusController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
