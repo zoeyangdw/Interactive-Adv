@@ -16,7 +16,7 @@ public class GetSceneObject : MonoBehaviour {
 	}
 
 	private void AddAllSC(){
-		SceneStartController s1 = (SceneStartController)GameObject.FindObjectOfType(typeof(SceneStartController));
+		SceneController s1 = (SceneController)GameObject.FindObjectOfType(typeof(SceneController));
 		//s1.AddAnimObject (Gears.GetInstance());
 		SceneManager.Add (s1);
 	}

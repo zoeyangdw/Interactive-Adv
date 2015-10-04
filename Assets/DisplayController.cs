@@ -32,6 +32,14 @@ public class DisplayController : MonoBehaviour {
 		DisplayScene (s);
 	}
 
+	public void UpdateFrame(){
+
+	}
+
+	public void AnimStop(){
+
+	}
+
 	// Use this for initialization
 	void Start () {
 		StatusController.ChangeScene += OnSceneChanged4Display;

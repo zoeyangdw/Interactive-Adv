@@ -3,22 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-public enum Scene{
-	scenestart = 0,
-	sceneWalk = 1,
-	sceneHandsPull = 2,
-	sceneHandUp = 3,
-	sceneHandCircle = 4,
-	sceneHandRotate = 5,
-	sceneHandHug = 6,
-};
-
 public class SceneController : MonoBehaviour {
 
 	private List<AnimComponent> ACManager;
 
-	public void AddAnimObject(AnimComponent a){
-		ACManager.Add (a);
+	public void AddAnimObject(){
+		ACManager.Add (Gears.GetInstance());
 	}
 
 	public void PlayScene(){
@@ -43,13 +33,10 @@ public class SceneController : MonoBehaviour {
 		return false;
 	}
 
-	public void Startup(){
-		ACManager = new List<AnimComponent> ();
-	}
-
 	// Use this for initialization
 	void Start () {
-
+		ACManager = new List<AnimComponent> ();
+		AddAnimObject ();
 	}
 	
 	// Update is called once per frame

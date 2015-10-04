@@ -1,17 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\StatusController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\discretegesturebasics-wpf\KinectBodyView.cs">
     <Files>
-      <File FileName="Assets\StatusController.cs" Line="11" Column="2" />
-      <File FileName="AdStructure.sln" Line="1" Column="1" />
-      <File FileName="Assets\AnimComponent.cs" Line="28" Column="1" />
-      <File FileName="Assets\SceneController.cs" Line="12" Column="22" />
-      <File FileName="Assets\DisplayController.cs" Line="45" Column="1" />
-      <File FileName="Assets\GetSceneObject.cs" Line="33" Column="2" />
+      <File FileName="..\..\discretegesturebasics-wpf\KinectBodyView.cs" Line="1" Column="1" />
+      <File FileName="..\..\discretegesturebasics-wpf\MainWindow.xaml.cs" Line="44" Column="37" />
+      <File FileName="..\..\discretegesturebasics-wpf\GestureDetector.cs" Line="1" Column="1" />
+      <File FileName="Assets\AnimComponent.cs" Line="1" Column="1" />
+      <File FileName="Assets\SceneController.cs" Line="1" Column="1" />
+      <File FileName="Assets\DisplayController.cs" Line="1" Column="1" />
+      <File FileName="Assets\GetSceneObject.cs" Line="1" Column="1" />
       <File FileName="Assets\CameraController.cs" Line="1" Column="1" />
-      <File FileName="Assets\GestureController.cs" Line="29" Column="3" />
-      <File FileName="Assets\Gears.cs" Line="11" Column="10" />
-      <File FileName="Assets\SceneStartController.cs" Line="10" Column="1" />
+      <File FileName="Assets\GestureController.cs" Line="1" Column="1" />
+      <File FileName="Assets\StatusController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Gears.cs" Line="1" Column="1" />
+      <File FileName="..\..\KinectForWindows_UnityPro_2.0.1410\KinectView\Scripts\BodySourceManager.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
