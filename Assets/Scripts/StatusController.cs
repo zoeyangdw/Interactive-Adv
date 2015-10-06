@@ -30,6 +30,14 @@ public class StatusController : MonoBehaviour {
 		TurnToScene (s);
 	}
 
+	public void OnLeftHandMoving(int x, int y){
+		/*
+		AnimComponent a = new AnimComponent();
+		a.transform.position.x = x;
+		a.transform.position.y = y;
+		*/
+	}
+
 	private void TurnToScene(Scene s){
 		if (s != presentScene || s == 0) {
 			presentScene = s;
@@ -53,6 +61,9 @@ public class StatusController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		GestureController.GetGesture += OnGestureRecognized;
+		/*
+		GestureController.LeftHandPosition += OnLeftHandMoving;
+		*/
 		presentScene = Scene.scenestart;
 		timeDown = 100;
 		sceneStack = new Stack<Scene>();
