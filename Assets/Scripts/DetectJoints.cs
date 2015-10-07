@@ -9,6 +9,7 @@ public class DetectJoints : MonoBehaviour {
     public JointType TrackedJoint;
     private BodySourceManager bodyManager;
     private Body[] bodies;
+    public float multipler = 10f;
 
 	// Use this for initialization
 	void Start () {
@@ -44,7 +45,7 @@ public class DetectJoints : MonoBehaviour {
             if (body.IsTracked)
             {
                 var pos = body.Joints[TrackedJoint].Position;
-                gameObject.transform.position = new Vector3(pos.X, pos.Y);
+                gameObject.transform.position = new Vector3(pos.X * multipler, pos.Y * multipler);
             }
         }
 	}
