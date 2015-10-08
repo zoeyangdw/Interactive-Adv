@@ -18,7 +18,7 @@ public class CustomGestureManager : MonoBehaviour
 
     public void SetTrackingId(ulong id)
     {
-        _gestureFrameReader.IsPaused = false;
+        //_gestureFrameReader.IsPaused = false;
         _gestureFrameSource.TrackingId = id;
         _gestureFrameReader.FrameArrived += _gestureFrameReader_FrameArrived;
     }
@@ -34,7 +34,7 @@ public class CustomGestureManager : MonoBehaviour
         }
         _kinect = KinectSensor.GetDefault();
 
-        _gestureDatabase = VisualGestureBuilderDatabase.Create(Application.streamingAssetsPath + "/salute.gbd");
+        _gestureDatabase = VisualGestureBuilderDatabase.Create("Database/salute.gbd");
         _gestureFrameSource = VisualGestureBuilderFrameSource.Create(_kinect, 0);
 
         foreach (var gesture in _gestureDatabase.AvailableGestures)
