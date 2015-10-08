@@ -1,7 +1,7 @@
 fileFormatVersion: 2
-guid: 2cecd1c435f1ea44f853166841ddc625
-timeCreated: 1443544837
-licenseType: Pro
+guid: 6c5bd5b0aa695bd4086d4119cbf87ed0
+timeCreated: 1444265990
+licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
@@ -12,18 +12,18 @@ ModelImporter:
     100008: Circle007
     100010: Circle008
     100012: Cylinder001
-    100014: //RootNode
-    100016: Line001
-    100018: Star
-    100020: Star001
-    100022: Star002
-    100024: Star003
-    100026: Star004
-    100028: Star005
-    100030: Star006
-    100032: Star007
-    100034: Star008
-    100036: Star009
+    100014: Line001
+    100016: Plane001
+    100018: Star001
+    100020: Star002
+    100022: Star003
+    100024: Star004
+    100026: Star005
+    100028: Star006
+    100030: Star007
+    100032: Star008
+    100034: Star009
+    100036: //RootNode
     400000: Circle003
     400002: Circle004
     400004: Circle005
@@ -31,18 +31,18 @@ ModelImporter:
     400008: Circle007
     400010: Circle008
     400012: Cylinder001
-    400014: //RootNode
-    400016: Line001
-    400018: Star
-    400020: Star001
-    400022: Star002
-    400024: Star003
-    400026: Star004
-    400028: Star005
-    400030: Star006
-    400032: Star007
-    400034: Star008
-    400036: Star009
+    400014: Line001
+    400016: Plane001
+    400018: Star001
+    400020: Star002
+    400022: Star003
+    400024: Star004
+    400026: Star005
+    400028: Star006
+    400030: Star007
+    400032: Star008
+    400034: Star009
+    400036: //RootNode
     2300000: Circle003
     2300002: Circle004
     2300004: Circle005
@@ -51,15 +51,16 @@ ModelImporter:
     2300010: Circle008
     2300012: Cylinder001
     2300014: Line001
-    2300016: Star001
-    2300018: Star002
-    2300020: Star003
-    2300022: Star004
-    2300024: Star005
-    2300026: Star006
-    2300028: Star007
-    2300030: Star008
-    2300032: Star009
+    2300016: Plane001
+    2300018: Star001
+    2300020: Star002
+    2300022: Star003
+    2300024: Star004
+    2300026: Star005
+    2300028: Star006
+    2300030: Star007
+    2300032: Star008
+    2300034: Star009
     3300000: Circle003
     3300002: Circle004
     3300004: Circle005
@@ -68,15 +69,16 @@ ModelImporter:
     3300010: Circle008
     3300012: Cylinder001
     3300014: Line001
-    3300016: Star001
-    3300018: Star002
-    3300020: Star003
-    3300022: Star004
-    3300024: Star005
-    3300026: Star006
-    3300028: Star007
-    3300030: Star008
-    3300032: Star009
+    3300016: Plane001
+    3300018: Star001
+    3300020: Star002
+    3300022: Star003
+    3300024: Star004
+    3300026: Star005
+    3300028: Star006
+    3300030: Star007
+    3300032: Star008
+    3300034: Star009
     4300000: Circle003
     4300002: Cylinder001
     4300004: Line001
@@ -94,7 +96,8 @@ ModelImporter:
     4300028: Star007
     4300030: Circle006
     4300032: Circle007
-    7400000: gearPlay
+    4300034: Plane001
+    7400000: Take 001
     9500000: //RootNode
     11100000: //RootNode
   materials:
@@ -118,15 +121,15 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: gearPlay
+      name: Take 001
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 750
-      wrapMode: 0
+      lastFrame: 744
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
-      loop: 1
+      loop: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -157,7 +160,7 @@ ModelImporter:
         weight: 1
       - path: Line001
         weight: 1
-      - path: Star
+      - path: Plane001
         weight: 1
       - path: Star001
         weight: 1

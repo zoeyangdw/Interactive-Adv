@@ -4,6 +4,7 @@ namespace Microsoft.Samples.Kinect.DiscreteGestureBasics
     using System;
     using System.Collections.Generic;
     using Microsoft.Kinect;
+	using Windows.Kinect;
     using Microsoft.Kinect.VisualGestureBuilder;
 
     /// <summary>
@@ -71,7 +72,7 @@ namespace Microsoft.Samples.Kinect.DiscreteGestureBasics
         }
 
         /// <summary> Gets the GestureResultView object which stores the detector results for display in the UI </summary>
-        public GestureResultView GestureResultView { get; private set; }
+       public GestureResultView GestureResultView { get; private set; }
 
         /// <summary>
         /// Gets or sets the body tracking ID associated with the current detector
