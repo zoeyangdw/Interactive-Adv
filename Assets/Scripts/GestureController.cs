@@ -25,19 +25,19 @@ public class GestureController : MonoBehaviour {
 			GetGesture(s);
 		}
 	}
-	/*
+	
 	public void GetLeftHandPosition(){
 		int x = 0;
 		int y = 0;
-		LeftHandPosition (x, y);
+		LeftHandPosition(x, y);
 	}
-	*/
+	
 	public delegate void OnGestureRecognized(Scene scene1);
 	public static event OnGestureRecognized GetGesture;
-	/*
+	
 	public delegate void OnLeftHandMoving(int x, int y);
 	public static event OnLeftHandMoving LeftHandPosition;
-	*/
+	
 	// Use this for initialization
 	void Start () {
 		
