@@ -24,6 +24,7 @@ ModelImporter:
     100032: Star007
     100034: Star008
     100036: Star009
+    100038: Plane001
     400000: Circle003
     400002: Circle004
     400004: Circle005
@@ -43,6 +44,7 @@ ModelImporter:
     400032: Star007
     400034: Star008
     400036: Star009
+    400038: Plane001
     2300000: Circle003
     2300002: Circle004
     2300004: Circle005
@@ -60,6 +62,7 @@ ModelImporter:
     2300028: Star007
     2300030: Star008
     2300032: Star009
+    2300034: Plane001
     3300000: Circle003
     3300002: Circle004
     3300004: Circle005
@@ -77,6 +80,7 @@ ModelImporter:
     3300028: Star007
     3300030: Star008
     3300032: Star009
+    3300034: Plane001
     4300000: Circle003
     4300002: Cylinder001
     4300004: Line001
@@ -94,6 +98,7 @@ ModelImporter:
     4300028: Star007
     4300030: Circle006
     4300032: Circle007
+    4300034: Plane001
     7400000: gearPlay
     9500000: //RootNode
     11100000: //RootNode
