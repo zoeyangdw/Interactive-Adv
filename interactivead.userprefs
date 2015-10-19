@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GestureController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="D:\Codes\New folder\interactivead\Assets\KinectView\Scripts\BodySourceManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\GestureController.cs" Line="40" Column="4" />
+      <File FileName="D:\Codes\New folder\interactivead\Assets\Scripts\CustomGestureManager.cs" Line="21" Column="9" />
+      <File FileName="D:\Codes\New folder\interactivead\Assets\KinectView\Scripts\BodySourceManager.cs" Line="11" Column="31" />
+      <File FileName="D:\Codes\New folder\interactivead\Assets\Standard Assets\Windows\Kinect\Body.cs" Line="325" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

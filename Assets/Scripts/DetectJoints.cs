@@ -46,7 +46,6 @@ public class DetectJoints : MonoBehaviour {
             {
                 var pos = body.Joints[TrackedJoint].Position;
                 gameObject.transform.position = new Vector3(pos.X * multipler, pos.Y * multipler);
-                LeftHandPosition(pos.x, pos.y);
             }
         }
 	}

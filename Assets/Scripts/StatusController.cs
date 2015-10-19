@@ -31,13 +31,12 @@ public class StatusController : MonoBehaviour {
 	}
 
 	public void OnLeftHandMoving(int x, int y){
-		
+		/*
 		AnimComponent a = new AnimComponent();
 		a.transform.position.x = x;
 		a.transform.position.y = y;
-        Debug.Log(x,y);
-
-    }
+		*/
+	}
 
 	private void TurnToScene(Scene s){
 		if (s != presentScene || s == 0) {
@@ -62,9 +61,9 @@ public class StatusController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		GestureController.GetGesture += OnGestureRecognized;
-		
+		/*
 		GestureController.LeftHandPosition += OnLeftHandMoving;
-		
+		*/
 		presentScene = Scene.scenestart;
 		timeDown = 100;
 		sceneStack = new Stack<Scene>();
