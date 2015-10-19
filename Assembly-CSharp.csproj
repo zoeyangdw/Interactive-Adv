@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{F8D4A3A9-F1E9-B413-EF89-9107DE74A812}</ProjectGuid>
+	<ProjectGuid>{266B520C-6D88-E0EB-7A02-BE2FB6176CD0}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,7 +62,9 @@
      <Compile Include="Assets\Scripts\DisplayController.cs" />
      <Compile Include="Assets\Scripts\Gears.cs" />
      <Compile Include="Assets\Scripts\GestureController.cs" />
+     <Compile Include="Assets\Scripts\GestureDetector.cs" />
      <Compile Include="Assets\Scripts\GetSceneObject.cs" />
+     <Compile Include="Assets\Scripts\JudgeGesture.cs" />
      <Compile Include="Assets\Scripts\SceneController.cs" />
      <Compile Include="Assets\Scripts\SceneStartController.cs" />
      <Compile Include="Assets\Scripts\StatusController.cs" />
@@ -87,7 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{04031CDE-D9B5-38BF-9FF4-5A334E527737}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{A67ED348-D07C-4E4B-974A-B432E944B0DA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

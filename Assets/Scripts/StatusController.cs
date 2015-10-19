@@ -81,7 +81,7 @@ public class StatusController : MonoBehaviour {
 			}
 			else {
 				timeDownCount = timeDown;
-				Rollback();
+				//Rollback();
 			}
 		}
 	}
