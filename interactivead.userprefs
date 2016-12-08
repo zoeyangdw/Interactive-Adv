@@ -1,10 +1,28 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="D:\Codes\New folder\interactivead\Assets\KinectView\Scripts\BodySourceManager.cs">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GestureController.cs">
     <Files>
-      <File FileName="D:\Codes\New folder\interactivead\Assets\Scripts\CustomGestureManager.cs" Line="21" Column="9" />
-      <File FileName="D:\Codes\New folder\interactivead\Assets\KinectView\Scripts\BodySourceManager.cs" Line="11" Column="31" />
-      <File FileName="D:\Codes\New folder\interactivead\Assets\Standard Assets\Windows\Kinect\Body.cs" Line="325" Column="18" />
+      <File FileName="Assets\KinectView\Scripts\BodySourceView.cs" Line="46" Column="5" />
+      <File FileName="Assets\Scripts\CameraController.cs" Line="4" Column="30" />
+      <File FileName="Assets\Scripts\CustomGestureManager.cs" Line="58" Column="99" />
+      <File FileName="Assets\Scripts\DetectJoints.cs" Line="52" Column="2" />
+      <File FileName="Assets\Scripts\DisplayController.cs" Line="37" Column="57" />
+      <File FileName="Assets\Scripts\GestureController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GestureDetector.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SceneController.cs" Line="43" Column="3" />
+      <File FileName="Assets\Scripts\SceneStartController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\StatusController.cs" Line="51" Column="31" />
+      <File FileName="Assets\KinectView\Scripts\BodySourceManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\KinectView\Scripts\ColorSourceManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\KinectView\Scripts\ColorSourceView.cs" Line="1" Column="1" />
+      <File FileName="Assets\KinectView\Scripts\DepthSourceManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\KinectView\Scripts\DepthSourceView.cs" Line="75" Column="41" />
+      <File FileName="Assets\KinectView\Scripts\InfraredSourceManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\KinectView\Scripts\InfraredSourceView.cs" Line="1" Column="1" />
+      <File FileName="Assets\KinectView\Scripts\MultiSourceManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AnimComponent.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Gears.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GetSceneObject.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

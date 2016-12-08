@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: 6c5bd5b0aa695bd4086d4119cbf87ed0
-timeCreated: 1444265990
-licenseType: Free
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: Circle003
     100002: Circle004
@@ -12,10 +10,9 @@ ModelImporter:
     100008: Circle007
     100010: Circle008
     100012: Cylinder001
-<<<<<<< HEAD
     100014: //RootNode
     100016: Line001
-    100018: Star
+    100018: Plane001
     100020: Star001
     100022: Star002
     100024: Star003
@@ -25,21 +22,6 @@ ModelImporter:
     100032: Star007
     100034: Star008
     100036: Star009
-    100038: Plane001
-=======
-    100014: Line001
-    100016: Plane001
-    100018: Star001
-    100020: Star002
-    100022: Star003
-    100024: Star004
-    100026: Star005
-    100028: Star006
-    100030: Star007
-    100032: Star008
-    100034: Star009
-    100036: //RootNode
->>>>>>> master
     400000: Circle003
     400002: Circle004
     400004: Circle005
@@ -47,10 +29,9 @@ ModelImporter:
     400008: Circle007
     400010: Circle008
     400012: Cylinder001
-<<<<<<< HEAD
     400014: //RootNode
     400016: Line001
-    400018: Star
+    400018: Plane001
     400020: Star001
     400022: Star002
     400024: Star003
@@ -60,21 +41,6 @@ ModelImporter:
     400032: Star007
     400034: Star008
     400036: Star009
-    400038: Plane001
-=======
-    400014: Line001
-    400016: Plane001
-    400018: Star001
-    400020: Star002
-    400022: Star003
-    400024: Star004
-    400026: Star005
-    400028: Star006
-    400030: Star007
-    400032: Star008
-    400034: Star009
-    400036: //RootNode
->>>>>>> master
     2300000: Circle003
     2300002: Circle004
     2300004: Circle005
@@ -83,18 +49,6 @@ ModelImporter:
     2300010: Circle008
     2300012: Cylinder001
     2300014: Line001
-<<<<<<< HEAD
-    2300016: Star001
-    2300018: Star002
-    2300020: Star003
-    2300022: Star004
-    2300024: Star005
-    2300026: Star006
-    2300028: Star007
-    2300030: Star008
-    2300032: Star009
-    2300034: Plane001
-=======
     2300016: Plane001
     2300018: Star001
     2300020: Star002
@@ -105,7 +59,6 @@ ModelImporter:
     2300030: Star007
     2300032: Star008
     2300034: Star009
->>>>>>> master
     3300000: Circle003
     3300002: Circle004
     3300004: Circle005
@@ -114,18 +67,6 @@ ModelImporter:
     3300010: Circle008
     3300012: Cylinder001
     3300014: Line001
-<<<<<<< HEAD
-    3300016: Star001
-    3300018: Star002
-    3300020: Star003
-    3300022: Star004
-    3300024: Star005
-    3300026: Star006
-    3300028: Star007
-    3300030: Star008
-    3300032: Star009
-    3300034: Plane001
-=======
     3300016: Plane001
     3300018: Star001
     3300020: Star002
@@ -136,7 +77,6 @@ ModelImporter:
     3300030: Star007
     3300032: Star008
     3300034: Star009
->>>>>>> master
     4300000: Circle003
     4300002: Cylinder001
     4300004: Line001
@@ -155,13 +95,8 @@ ModelImporter:
     4300030: Circle006
     4300032: Circle007
     4300034: Plane001
-<<<<<<< HEAD
-    7400000: gearPlay
-=======
     7400000: Take 001
->>>>>>> master
     9500000: //RootNode
-    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -169,6 +104,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -176,80 +112,16 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
-      firstFrame: 0
-      lastFrame: 744
-      wrapMode: 2
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Circle003
-        weight: 1
-      - path: Circle003/Cylinder001
-        weight: 1
-      - path: Circle004
-        weight: 1
-      - path: Circle004/Circle005
-        weight: 1
-      - path: Circle006
-        weight: 1
-      - path: Circle006/Circle007
-        weight: 1
-      - path: Line001
-        weight: 1
-      - path: Plane001
-        weight: 1
-      - path: Star001
-        weight: 1
-      - path: Star001/Circle008
-        weight: 1
-      - path: Star002
-        weight: 1
-      - path: Star002/Star003
-        weight: 1
-      - path: Star002/Star008
-        weight: 1
-      - path: Star004
-        weight: 1
-      - path: Star005
-        weight: 1
-      - path: Star005/Star009
-        weight: 1
-      - path: Star006
-        weight: 1
-      - path: Star007
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -266,25 +138,24 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 3
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
